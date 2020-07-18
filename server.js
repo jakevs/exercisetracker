@@ -13,6 +13,8 @@ mongoose.connect("mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
+
+app.use(apiRoutes);
 app.use(htmlRoutes);
 
 app.listen(PORT, () => {
