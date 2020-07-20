@@ -1,2 +1,41 @@
-# exercisetracker
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+# Eat the Burger
+
+[![GitHub license](https://img.shields.io/badge/ET-black.svg)](https://github.com/jakevs/exercisetracker)
+
+## Description
+
+This full-stack web application was created for a user to add their favorite workout plans, and to keep track of their exercise routines. This will also allow the user to add exercises to their routines, and view the stats of their workouts.
+This application was created using Mongodb, Mongoose Schemas, Express, Node and Javascript. 
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
+## Installation
+
+To install necessary dependencies, run the following command:
+
+```
+npm i
+```
+
+## Usage
+
+It is an open project and everyone can contribute! Run the following command to use command line:
+
+```
+node server.js
+```
+
+## Contributing
+
+Please send an email if you wish to contribute.
+
+## Questions
+
+  <img src="https://avatars.githubusercontent.com/jakevs" style="width: 10px; height: 10px; border-radius:75%;">
+
+If you have any questions about the repository, or an open issue, please contact any of the contributing members of this project.
