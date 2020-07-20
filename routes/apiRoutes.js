@@ -20,14 +20,14 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
 });
 
 router.get("/api/workouts/range", (req, res) => {
-    Workout.find({}, (err, stats) => {
-      if (err) {
-        res.json(err);
+  Workout.find({}, (err, stats) => {
+    if (err) {
+      res.json(err);
       } else {
-        res.json(stats);
+      res.json(stats);
       }
-    });
   });
+});
 
 
 router.get("/api/workouts", (req, res) => {

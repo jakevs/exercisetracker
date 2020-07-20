@@ -12,7 +12,7 @@ mongoose.connect(MONGODB_URI, {
   useFindAndModify: false,
 });
 
-const app = express();
+// const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
