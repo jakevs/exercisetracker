@@ -1,4 +1,4 @@
-# Eat the Burger
+# Exercise Tracker
 
 [![GitHub license](https://img.shields.io/badge/ET-black.svg)](https://github.com/jakevs/exercisetracker)
 
